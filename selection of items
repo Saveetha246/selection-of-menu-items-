@@ -1,0 +1,28 @@
+#include<stdio.h>
+int main()
+{
+int choice=0;
+printf("Press any number between 1 and 5.\nEnter any number:");
+scanf("%d",&choice);
+switch(choice)
+ {
+   case 1:
+        printf("Food item-Veg Pasta\nPrice-Rs 186");
+        break;
+   case 2:
+        printf("Food item-Gobi fried rice\nPrice-Rs 190");
+        break;
+   case 3:
+        printf("Food item-Sandwitch\nPrice-Rs 135");
+        break;
+   case 4:
+        printf("Food item-Burger\nPrice-Rs 150");
+        break;
+   case 5:
+        printf("Food item-Pizza\nPrice-Rs 298");
+        break;
+   default:
+         printf("Invalid number.");
+ }
+  return 0;
+}
